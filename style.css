@@ -25,13 +25,8 @@ body{
     border: 0;
     padding: 0;
     margin: 10px;
+    background: rgb(204, 102, 0);
 }
-/* #navbarTogglerDemo01 {
-    display: flex;
-    justify-content: space-evenly;
-    background: rgb(76, 43, 43);
-    color: black;
-} */
 
 /* for words in nav bar */
 #nav-word {
@@ -39,19 +34,23 @@ body{
     justify-content: space-evenly;
     width: 1000px;
 }
-
+/* carousel and vertical menu */
 #mid {
     display: flex;
     margin-left: 50px;
+    background: blue;
 }
 #carouselExampleControls {
     height: 500px;
     width: 600px;
-
+    /* height: 60vh;
+    width: auto; */
 }
 .carousel-inner {
     height: 500px;
     width: auto;
+    /* height: auto;
+    width: auto; */
 }
 
 .carousel-control-prev {
@@ -64,15 +63,52 @@ body{
 #v-menu {
     background: rgb(219, 136, 81);
     display: flex;
-    justify-content: space-evenly;
     /* height: 300px; */
     /* padding: 10px; */
     /* border: 0; */
 }
-/* #v-menu-space {
+.card-box {
     display: flex;
+    justify-content: flex-end;
+    border-bottom: solid black 1px;
+    /* margin-left: 10px; */
+}
+#v-menu img {
+    height: 10vh; 
+    width: 10vh;
+    margin-left: 10px;
 
-} */
+}
 #view {
     text-align: right;
+}
+
+/* footer */
+#top {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px;
+    /* margin-left: 10px; */
+}
+#connect {
+    margin-right:10px;
+}
+.fa {
+  padding: 8px;
+  font-size: 15px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+#bottom {
+    padding:10px;
 }
