@@ -1,0 +1,78 @@
+body{
+
+    background-color: beige
+}
+#main.row {
+    border:0;
+    margin-top:20px;
+    padding: 0px;
+    background: red;
+    height:70px;
+    display:flex;
+}
+#main img{
+    height: 50%;
+}
+#main a {
+    color: white;
+    line-height: 4;
+}
+/* for the space inside navbar */
+.navbar {
+    margin-left:-15px;
+}
+#nav-start {
+    border: 0;
+    padding: 0;
+    margin: 10px;
+}
+/* #navbarTogglerDemo01 {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(76, 43, 43);
+    color: black;
+} */
+
+/* for words in nav bar */
+#nav-word {
+    dsiplay: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+#mid {
+    display: flex;
+    margin-left: 50px;
+}
+#carouselExampleControls {
+    height: 500px;
+    width: 600px;
+
+}
+.carousel-inner {
+    height: 500px;
+    width: auto;
+}
+
+.carousel-control-prev {
+    background: black;
+}
+.carousel-control-next {
+    background: black;
+}
+
+#v-menu {
+    background: rgb(219, 136, 81);
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 300px; */
+    /* padding: 10px; */
+    /* border: 0; */
+}
+/* #v-menu-space {
+    display: flex;
+
+} */
+#view {
+    text-align: right;
+}
