@@ -40,6 +40,10 @@ body{
     margin-left: 50px;
     background: blue;
 }
+#mid img {
+    background: cover;
+    background-position: center;
+}
 #carouselExampleControls {
     height: 500px;
     width: 600px;
